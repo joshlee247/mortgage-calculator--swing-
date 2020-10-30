@@ -15,14 +15,14 @@ import java.awt.event.*;
     {
       //initializes cFrame as an object of JCalcFrame
       JCalcFrame cFrame = new JCalcFrame();
-      cFrame.setTitle("Farenheit to Celsius Calculator");
+      cFrame.setTitle("Mortgage Calculator");
       cFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
       //sets size of cFrame window
-      cFrame.setSize(250,200);
+      cFrame.setSize(600,200);
 
       //aligns all components to center
-      cFrame.setLayout(new FlowLayout(FlowLayout.CENTER, 100, 0));
+      //cFrame.setLayout(new FlowLayout(FlowLayout.LEFT, 3, 10));
       cFrame.setVisible(true);
     }
   }
