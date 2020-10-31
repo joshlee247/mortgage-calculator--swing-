@@ -3,7 +3,7 @@ program name: Mortgage Calculator.java
 programmer: Josh Lee
 date: 10/29/20
 version: 1.3
-Creates a program in Java Swing to calculate the temperature in Farenheit to Celsius
+Creates a program in Java Swing to compute your monthly mortgage with a seamless UI.
 */
 
 import javax.swing.*;
