@@ -15,11 +15,12 @@ import java.awt.event.*;
     {
       //initializes cFrame as an object of JCalcFrame
       JCalcFrame cFrame = new JCalcFrame();
+      cFrame.getContentPane().setBackground(Color.WHITE);
       cFrame.setTitle("Mortgage Calculator");
       cFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
       //sets size of cFrame window
-      cFrame.setSize(600,200);
+      cFrame.setSize(600,300);
 
       //aligns all components to center
       //cFrame.setLayout(new FlowLayout(FlowLayout.LEFT, 3, 10));
